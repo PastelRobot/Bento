@@ -11,26 +11,23 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Riley',
   imageBackground: false,
-  openInNewTab: true,
-  twelveHourFormat: false,
+  openInNewTab: false,
 
   // Greetings
   greetingMorning: 'Good morning!',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingNight: 'Good night',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
-
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  weatherKey: 'ba7ae8b206aa8aaf37339c7748e2a260',
+  weatherIcons: 'Dark', // 'Nord', 'Dark', 'White'
+  weatherUnit: 'F',
+  weatherLatitude: '44.636501',
+  weatherLongitude: '-123.106018',
+  
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -48,31 +45,31 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://www.youtube.com/',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Twitch',
+      icon: 'twitch',
+      link: 'https://www.twitch.tv/',
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'bookmark',
-      link: 'https://reddit.com',
+      name: 'Twitter',
+      icon: 'twitter',
+      link: 'https://twitter.com/home',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Twist.moe',
+      icon: 'film',
+      link: 'https://twist.moe',
     },
   ],
 
@@ -81,45 +78,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'book-open',
+  secondListIcon: 'dollar-sign',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Dotfiles',
+        link: 'https://github.com/PastelRobot/dotfiles',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'CertMaster',
+        link: 'https://learn.comptia.org/login',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'ArchWiki',
+        link: 'https://wiki.archlinux.org/',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Blog',
+        link: 'https://pastelrobot.gay',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Acorns',
+        link: 'https://app.acorns.com/present',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Progressive',
+        link: 'https://www.progressive.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'USBank',
+        link: 'https://www.usbank.com/index.html',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Kraken',
+        link: 'https://www.kraken.com/u/trade',
       },
     ],
   },
