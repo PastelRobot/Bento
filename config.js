@@ -21,12 +21,15 @@ const CONFIG = {
   greetingEvening: 'Good evening,',
   greetingNight: 'Good night',
 
-  // Weather
+    // Weather
   weatherKey: 'ba7ae8b206aa8aaf37339c7748e2a260',
   weatherIcons: 'Dark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'F',
-  weatherLatitude: '44.636501',
-  weatherLongitude: '-123.106018',
+  weatherUnit: 'F', // 'F', 'C'
+  language: 'en', // More languages in https://openweathermap.org/current#multi
+
+  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '44.636501',
+  defaultLongitude: '-123.106018',
   
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
