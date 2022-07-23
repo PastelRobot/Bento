@@ -70,9 +70,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Twist.moe',
-      icon: 'film',
-      link: 'https://twist.moe',
+      name: 'YGOProDeck',
+      icon: 'book',
+      link: 'https://ygoprodeck.com/',
     },
   ],
 
